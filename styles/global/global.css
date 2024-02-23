@@ -1,0 +1,16 @@
+@import url(../sidebar/sidebar.css);
+@import url(../main/main.css);
+@import url(../navbar/navbar.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cantenir {
+  width: 100%;
+  display: flex;
+}
+.cantenir .content {
+  flex: 4;
+}/*# sourceMappingURL=global.css.map */

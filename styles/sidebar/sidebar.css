@@ -1,0 +1,30 @@
+.sidebar {
+  flex: 1;
+  background-color: #000016;
+  min-height: 100vh;
+  position: sticky;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sidebar .sidebar-logo {
+  color: #fff;
+}
+.sidebar .sidebar-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sidebar .sidebar-menu button {
+  padding: 15px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.sidebar .sidebar-menu button:hover {
+  background-color: #2e374a;
+}
+.sidebar .sidebar-menu .sidebar-link {
+  font-size: 20px;
+}/*# sourceMappingURL=sidebar.css.map */
